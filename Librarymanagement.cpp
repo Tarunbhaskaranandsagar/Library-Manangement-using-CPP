@@ -6,7 +6,7 @@ map<string,int> books;
 int totalbooks=0;
 bool isprime=false;
 
-string trim(string &s)
+void trim(string &s)
 {
     for(int i=0;i<s.size();i++)
     {
